@@ -1,5 +1,6 @@
 package io.manjo.chat.configuration;
 
+import io.manjo.chat.interceptor.HttpHandshakeInterceptor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.simp.config.MessageBrokerRegistry;
 import org.springframework.web.socket.config.annotation.EnableWebSocketMessageBroker;
@@ -8,17 +9,19 @@ import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerCo
 
 @Configuration
 @EnableWebSocketMessageBroker
-public class WebSocketConfiguration implements WebSocketMessageBrokerConfigurer {
+public class WebSocketBrokerConfiguration implements WebSocketMessageBrokerConfigurer {
 
     @Override
     public void registerStompEndpoints(StompEndpointRegistry registry) {
-        registry.addEndpoint("/socket").withSockJS();
+        registry.addEndpoint("/socket").addInterceptors(new HttpHandshakeInterceptor())
+                .withSockJS();
     }
 
     @Override
     public void configureMessageBroker(MessageBrokerRegistry registry) {
-        registry.setApplicationDestinationPrefixes("/application");
-        registry.enableSimpleBroker("/topic"); 
+        registry.enableSimpleBroker("/queue");
+        registry.setApplicationDestinationPrefixes("/endpoint");
+        registry.setUserDestinationPrefix("/user");
     }
 
 }

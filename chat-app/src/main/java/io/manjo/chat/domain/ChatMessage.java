@@ -1,4 +1,4 @@
-package io.manjo.chat.model;
+package io.manjo.chat.domain;
 
 public class ChatMessage {
 

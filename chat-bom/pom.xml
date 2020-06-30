@@ -47,10 +47,17 @@
         <jtwig-translate.version>5.86.1.RELEASE</jtwig-translate.version>
         <pdfbox.version>2.0.19</pdfbox.version>
         <guava.version>29.0-jre</guava.version>
+        <thymeleaf-layout-dialect.version>2.3.0</thymeleaf-layout-dialect.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <!-- Thymeleaf layout -->
+            <dependency>
+                <groupId>nz.net.ultraq.thymeleaf</groupId>
+                <artifactId>thymeleaf-layout-dialect</artifactId>
+                <version>${thymeleaf-layout-dialect.version}</version>
+            </dependency>
             <!-- Guava -->
             <dependency>
                 <groupId>com.google.guava</groupId>
