@@ -1,1 +1,2 @@
-# manjo-websocket-chat
+# Chirr.TO
+### Chirr Chat - Application
