@@ -28,7 +28,7 @@
         <apache.commons-codec>1.13</apache.commons-codec>
         <apache.commons-beanutils>1.9.4</apache.commons-beanutils>
         <apache.commons-validator>1.6</apache.commons-validator>
-        <apache.commons-io>2.6</apache.commons-io>
+        <apache.commons-io>2.7</apache.commons-io>
         <apache.commons-collections>3.2.2</apache.commons-collections>
         <apache.commons-lang3>3.9</apache.commons-lang3>
         <apache.commons-lang2>2.6</apache.commons-lang2>
