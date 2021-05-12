@@ -14,7 +14,7 @@
         <java-validation.version>2.0.1.Final</java-validation.version>
         <java-el.version>3.0.1-b06</java-el.version>
         <org.springframework.version>5.2.7.RELEASE</org.springframework.version>
-        <org.springframework-security.version>5.3.3.RELEASE</org.springframework-security.version>
+        <org.springframework-security.version>5.3.9.RELEASE</org.springframework-security.version>
         <org.springframework.boot.version>2.3.1.RELEASE</org.springframework.boot.version>
         <org.springframework.spring-plugin-core.version>1.2.0.RELEASE</org.springframework.spring-plugin-core.version>
         <org.springframework.spring-hateoas.version>1.0.3.RELEASE</org.springframework.spring-hateoas.version>
