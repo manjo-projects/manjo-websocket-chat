@@ -24,7 +24,7 @@
         <log4j2.version>2.13.3</log4j2.version>
         <jackson.version>2.11.0</jackson.version>
         <apache.commons-text>1.8</apache.commons-text>
-        <apache.http>4.5.11</apache.http>
+        <apache.http>4.5.13</apache.http>
         <apache.commons-codec>1.13</apache.commons-codec>
         <apache.commons-beanutils>1.9.4</apache.commons-beanutils>
         <apache.commons-validator>1.6</apache.commons-validator>
