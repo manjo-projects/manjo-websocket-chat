@@ -36,7 +36,7 @@
         <hikaricp.version>2.7.9</hikaricp.version>
         <hibernate.version>5.3.7.Final</hibernate.version>
         <hibernate-hikaricp.version>5.4.10.Final</hibernate-hikaricp.version>
-        <hibernate-validator.version>6.0.18.Final</hibernate-validator.version>
+        <hibernate-validator.version>6.0.20.Final</hibernate-validator.version>
         <h2-database.version>1.4.200</h2-database.version>
         <modelmapper.version>2.3.0</modelmapper.version>
         <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
